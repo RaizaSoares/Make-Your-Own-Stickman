@@ -1,0 +1,226 @@
+.titlefont{
+  font-family: 'Pacifico', cursive;
+}
+.bghome{
+  background-color: #F2DFCF;
+  font-family: 'Questrial', sans-serif;
+  color:#7A6C5D;
+}
+.bgManagement{
+  background-image: linear-gradient(pink, #98FB98);
+  font-family: 'Questrial', sans-serif;
+  color:#7A6C5D;
+
+}
+
+.othertxt{
+  font-family: 'Questrial', sans-serif;
+}
+
+.rmLine{
+  line-height: 0;
+}
+
+.pgtext{
+  color:#7A6C5D;
+}
+a{
+  color:blue;
+}
+a:hover{
+  color: #7A6C5D;
+}
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: #F2DFCF;
+  color:#7A6C5D;
+}
+.container1 {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 15px;
+}
+.helpfont{
+font-family: cursive;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.uld {
+  background-color:#6AB486;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Questrial', sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: darksalmon;
+}
+
+.button {
+  background-color: #FFFF99; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: yellow;
+  color: black;
+}
+.button2 {
+  background-color: plum; /* Green */
+  border: 1px solid black;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button2:hover {
+  background-color: palevioletred;
+  color: black;
+}
+.pne {
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+}
+.uld2 {
+  background-color:plum;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Questrial', sans-serif;
+}
+
+.forimgs{
+  width: 30%; 
+  height:30%;
+
+
+}
+.forcssmods{
+  color: red;
+}
+
+#matrix {
+  border: 1px solid red;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#matrix tr, td {
+  padding: 5px;
+}
+
+#matrix button {
+  height: 40px;
+  width: 170px;
+  border: none;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+#b1, #b3 {
+  background-color: rgba(255, 153, 51, 0.5);
+}
+
+#b1:hover, #b3:hover {
+  background-color: rgb(255, 153, 51);
+}
+
+#b2 {
+  background-color: rgba(15, 138, 15, 0.5);
+}
+
+#b2:hover {
+  background-color: rgb(15, 138, 15);
+}
+
+
+#b4 {
+  background-color: rgba(189, 15, 15, 0.6);
+}
+
+#b4:hover {
+  background-color: rgb(189, 15, 15);
+}
+
+.button3 {
+  background-color: rgb(255, 153, 51); /* Green */
+  border: 1px solid black;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button3:hover {
+  background-color: rgb(189, 15, 15);
+  color: black;
+}
+
+.temp {
+  height:500px;
+  width:600px;
+  color: white;
+  font-size: 20px;
+background-color:#98FB98;
+ 
+background-image: repeating-linear-gradient(transparent, transparent 50px, purple 50px,
+ purple 53px, transparent 53px, transparent 63px, purple 63px, purple 66px,
+  transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px,
+   rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px,
+    rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),  
+  repeating-linear-gradient(270deg, transparent, transparent 50px, purple 50px, purple 53px, transparent 53px,
+   transparent 63px, purple 63px, purple 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px,
+    rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px,
+     rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px,
+      rgba(0,0,0,.5) 232px, transparent 232px);
+
+}
+
+
+.w3-container{
+  background-color: green;
+}
+

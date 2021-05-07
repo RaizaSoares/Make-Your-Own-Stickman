@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Help page</title>
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+
+  </head>
+
+    <body class="bgManagement">
+		<div class="header">
+      <img class="forimgs" src="help.jpg">
+      <h1 class="helpfont">Help Page</h1>
+      <p class="helpfont">This page will help you find what you need</p>
+    </div>
+
+    <ul class= "uld">
+      <li><a href="mainpage.php">Home</a></li>
+      <li><a href="help.html">Help</a></li>
+      <li><a href="fileManagement.html">File Management</a></li>
+     
+    </ul>
+    <p>Contents: </p>
+    <a href="#desc">Description</a><br><br>
+    <a href="#check1">Checklist 1</a><br><br>
+    <a href="#check2">Checklist 2</a><br><br>
+    <a href="#cssMods">CSS Modifications</a><br><br>
+    <a href="#progU">Program Usage</a><br><br>
+
+    
+    <h2 id = "desc">Description</h2>
+    <p> Author: Raiza Soares.<br>
+    Class: GUI<br><br>
+    Brief description: The program allows the user to make a custom stickman. the home page contains the default stickman enclosed within a bordered area. Under the stickman area, there are various buttons that can be used to change the appearance of the stickman. Below are the descriptions for each of the buttons:
+      <br><br>
+      lepGold : Changes the left arm to the one with the Leprechaun gold. <br>
+      pirateHook : Changes the left arm to the one with the Pirate hook. <br>
+      lepSham : Changes the right arm to the one with the Leprechaun shamrock. <br>
+      pirateSword : Changes the right arm to the one with the Pirate sword. <br>
+      lepShirt: Gives the stickman a green shirt. <br>
+      lepBeard: Gives the stickman a beard. <br>
+      lepShoes: Gives the stickman shoes. <br>
+      pirateBoots: Gives the stickman boots. <br>
+      pirateBelt: Gives the stickman a belt.<br>
+      pirateHat: Gives the stickman a hat.<br>
+      Basic Stickman: Changes all images to basic stickman image.<br>
+      PirateStickman: Changes all images to pirate stickman images.<br>
+      Lep Stickman: Changes all images to Leprechaun stickman images.<br>
+      <br> Undo: Undoes the last design action.
+      <br>Redo: Redoes the last action that was Undone.
+      <br> Save: Saves stickman to the server as a file called "test.txt". NOTE:Saving a stickman lets the user stay on the main page, and the changes are retained.
+      However, the user cannot undo/redo any of the previous actions to the saved stickman. 
+      The user can modify this stickman and then use undo/redo. So the "save" kind of works 
+      like the "load" with respect to the main page.
+      <br>   
+      <br>
+
+      <em> The user is able to use all these buttons, but the changes to the stickman's appearance will not be retained if the user navigates away or clicks on the "Home" button in the navigation bar. </em>
+      <br><br>
+      <b> Help page </b>: Also contains the same navigation bar that allows the user to navigate to the other two pages. It contains links to different pages within the help page.
+      <br><br>
+      <b>File Management page:</b> The fileManagement page allows the user to upload a file to the server.
+      <br><br>
+      <B>Upload: </B>Use txt files only! Inorder to upload a file, click on the "choose file" button and select the file you want to upload. Once selected, click the upload button. You will be navigated
+      back to the home page. Your file will have been uploaded to the server and renamed to "test.txt".
+      <br><br>
+      <b>Download</b> To download a file, type the file name in the test box. The file name will always be <b>test.txt</b>. I implemented a "nice Download" from the lectures,
+      so the user will be navigated to a page that will ask if you want to download the file if it exists. Click on the link, and you will be redirected
+      to test.txt. From here you may choose to download by pressing CTRL+S. <em>Since the type of download was not specified, I implemented the nice Download.</em>
+      <br><br>
+      <b>Load</b> To upload a file, type the filename in the text box. The file name will always be <b>test.txt</b>. Then press the load button. The user will be redirected to
+      the homepage, and the loaded stickam will display in the stickman area. NOTE: the user cannot undo/redo any of the actions to the freshly loaded stickman. 
+      The user can modify this stickman and then use undo/redo. 
+       
+
+      <b>Bugs for part 2:</b> Navigating away to a page or refreshing the page does NOT retain the stickman modifications.
+      
+       </p>
+
+    <h2 id = "check1">Checklist 1</h2>
+    <p> 
+      Mark off what items are complete, and put a P if partially complete. If 'P' include how to test what is working for partial credit below the checklist line. <br>
+
+2a and 2b are the same tier. They are noted only for category clarity. <br><br>
+
+1) Basic content &nbsp	24 <br>
+_X_ All 3 pages present	<br>
+_X_ Header in all pages in correct spot <br>	
+_X_ Nav bar in all pages in correct spot <br>	
+_X_ All interaction buttons added to main page in correct spot <br>	
+_X_ Properly display the default stickman in main page in correct spot	<br>
+_X_ Placeholder for file upload in file page in correct spot	<br>
+_X_ Placeholder for file with load/download in correct spot<br>	
+_X_ All headings added to Help page in correct order	<br>
+_X_ Help page content filled in	<br>
+_X_ Within page link help page working	
+
+<br>
+<br>
+
+2a) CSS rules* &nbsp	28 <br>
+_X_ Background color/image	<br>
+_X_ CSS header	<br>
+_X_ CSS nav bar color/image	<br>
+_X_ CSS  &lt a &gt rule	<br>
+_X_ No gaps in stickman images	<br>
+_X_ Stickman board	<br>
+_X_ Help heading font change	
+
+<br><br>
+2b) Main page actions *	&nbsp 18 <br>
+_X_ Able to change at least 1 piece of the stickman <br>	
+_X_  Able to change every piece of the stickman, 1 at a time	
+<br><br>
+* There must be no styling/script inside the HTML/PHP files.
+      
+       </p>
+    
+    <h2 id = "check2">Checklist 2</h2>
+    <p> 
+      Mark off what items are complete, and put a P if partially complete. If 'P' include how to test what is working for partial credit below the checklist line.<br>
+<br>
+(tier-less) Undo/redo pattern** &nbsp	36 <br>
+_X_ Undo/redo OOP followed	<br>
+_X_ Able to do at least 1 undo/redo for 1 piece change <br>
+_X_ Able to do at least 1 undo/redo for 1 predesigned change<br>	
+_X_ Able to do at least 5 undo/redo for 1 piece change <br>	
+_X_ Able to do at least undo/redo for 1 predesigned change	<br>
+<br>
+
+1) Finish Main page actions	&nbsp 10<br>
+_X_ Able to change to at least one predesigned stickman	<br>
+_X_ Able to change to all predesigned stickmen	<br>
+<br>
+2) Tier: Files &nbsp	48 <br>
+_X_ Able to save the current stickman <br>	
+_X_ Stay on the main page with a save <br>	
+_X_ Able to download at least one file (default is ok)	<br>
+_X_ Able to download an application generated file	<br>
+_X_ Able to upload a file	<br>
+_X_ Loading a file redirects back to the main page <br>	
+_X_ Loaded file properly displays with some file <br>	
+_X_ Loaded file properly displays with app generated file <br>
+_X_ All functionality still works after file event <br>
+_X_ Able to save, download, upload, and load that same file <br>
+<br>	
+
+3) Help page properly updated	<br><br>
+
+4) Extensions	&nbsp 30 <br>
+Extension 1: &lt 2a &gt &lt points: 10 &gt &lt Hot keys for all design options (Improve interaction)&gt :<br>
+ &lt "Shift+ D" - Basic head  &gt	<br>
+ &lt "Shift+ H" - Pirate hat  &gt	<br>
+ &lt "Shift+ L" - Leprechaun beard  &gt	<br>
+<br>
+ &lt "Shift+ Q" - Basic body  &gt	<br>
+ &lt "Shift+ B" - Pirate belt  &gt	<br>
+ &lt "Shift+ G" - Leprechaun shirt  &gt	<br>
+ <br>
+ &lt "Shift+ K" - Basic lArm  &gt	<br>
+ &lt "Shift+ E" - Pirate hook  &gt	<br>
+ &lt "Shift+ C" - Leprechaun gold  &gt	<br>
+ <br>
+ &lt "Shift+ J" - Basic rArm  &gt	<br>
+ &lt "Shift+ I" - Pirate sword  &gt	<br>
+ &lt "Shift+ F" - Leprechaun shamrock  &gt	<br>
+ <br>
+ &lt "Shift+ O" - Basic legs  &gt	<br>
+ &lt "Shift+ N" - Pirate boots  &gt	<br>
+ &lt "Shift+ M" - Leprechaun shoes  &gt	<br>
+ <br>
+Extension 2: &lt 1a &gt &lt points: 5 &gt &lt Style using a CSS feature not discussed in class (Improve appearance) &gt : 
+&lt how to test/find if applicable: I used a Linear CSS gradient to style the background of the help page. 
+I found the information/ tutorials of W3 schools. (In style1.css file, see ".bgManagement"&gt	<br>
+<br>
+Extension 3: &lt 1b &gt &lt points: 5 &gt &lt Make a fancy page background (Improve appearance) &gt : 
+&lt See background on fileManagement.html. This is NOT an image. This was created using repeating linear gradients in CSS. I used
+a total of four colors to create the checkers. I found information and help on how to do this at freefrontend.com.
+ Link: "https://freefrontend.com/css-background-patterns/". (See .temp in style1.css) &gt 	<br>
+ <br>
+Extension 4: &lt Approved extension (2) on the Web assignment page &gt
+points: 10 &lt All buttons are aligned in columns below the stickman &gt : 
+&lt I did this using a table in CSS. (see #matrix in style1.css) &gt
+
+<br>
+<br>
+NOTES:
+<br>
+Navigating away to a page or refreshing the page does NOT retain the stickman modifications. This information was not 
+clearly stated on the checklist, so I am making a note here.
+<br>
+<br>
+Saving a stickman lets the user stay on the main page, and the changes are retained.
+ However, the user cannot undo/redo any of the previous actions to the saved stickman. 
+ The user can modify this stickman and then use undo/redo. So the "save" kind of works 
+ like the "load" with respect to the main page.
+ <br>
+<br>
+
+**must have grading tag for points. <br>
+       </p>
+
+    <h2 id = "cssMods">CSS Modifications</h2>
+    <p> 
+      Below I will display the required rule, and then (in red font) mention how I took care of it, along with the class sector name in CSS.<br> <br> 
+
+      1.The background of a page must include a color other than white or a background image. <p class= "forcssmods">I used #F2DFCF as my background color. CSS selector: .bghome in style1.css </p>
+      2.There must bea custom CSS header included in all pages (note, not heading).<p class= "forcssmods">I used the same header for all files: CSS selector: .header in style1.css </p>
+      3.The CSS on the navigation bar must include a background color/imagerule.<br>
+      <p class= "forcssmods">I used #6AB486 as my background color for the navigation bar. CSS selector: .uld in style1.css </p>
+
+      4.There must be a custom link (&lt a &gt) rule. 
+      <p class= "forcssmods">See "li a" and "a" rule in style1.css</p>
+      5.There may not be notable gaps between the stickman images.<p class= "forcssmods">I took care of it by making the line-height=0 . See CSS selector: .rmline</p>
+      6.The stickman area must include a border of some sort.
+      <p class= "forcssmods">I have a black border around the stickman. Border CSS selector: .pne</p>
+      7.The help page headings must have a font style change
+      <p class= "forcssmods">I changed the font-family to cursive for the Help page header. CSS class selector: .helpfont </p>
+
+       </p>
+
+    <h2 id = "progU">Program Usage</h2>
+    <p> 
+      Program website: https://dev.cse.sdsmt.edu/~s7505038/mainpage.php
+      <br>
+      The website runs on both, Chrome and Firefox. There is no need for initialisations. 
+      <br>
+      How to use this program: <br>
+      The link above will take the user to the homepage of the program. On the homepage, there is a navigation bar that will allow the user to go to the "Help" and "File Management" pages. <br><br>
+     <b> Home page </b>: On startup, the home page contains the default stickman enclosed within a bordered area. Under the stickman area, there are various buttons that can be used to change the appearance of the stickman. Below are the descriptions for each of the buttons:
+      <br>
+      <br>
+      <em>All buttons are visible on a school laptop screen.</em>
+      <br>
+      <br>
+      lepGold : Changes the left arm to the one with the Leprechaun gold. <br>
+      pirateHook : Changes the left arm to the one with the Pirate hook. <br>
+      lepSham : Changes the right arm to the one with the Leprechaun shamrock. <br>
+      pirateSword : Changes the right arm to the one with the Pirate sword. <br>
+      lepShirt: Gives the stickman a green shirt. <br>
+      lepBeard: Gives the stickman a beard. <br>
+      lepShoes: Gives the stickman shoes. <br>
+      pirateBoots: Gives the stickman boots. <br>
+      pirateBelt: Gives the stickman a belt.<br>
+      pirateHat: Gives the stickman a hat.<br>
+      Basic Stickman: Changes all images to basic stickman image.<br>
+      PirateStickman: Changes all images to pirate stickman images.<br>
+      Lep Stickman: Changes all images to Leprechaun stickman images.<br>
+      <br> Undo: Undoes the last design action.
+      <br>Redo: Redoes the last action that was Undone.
+      <br> Save: Saves stickman to the server as a file called "test.txt". NOTE:Saving a stickman lets the user stay on the main page, and the changes are retained.
+      However, the user cannot undo/redo any of the previous actions to the saved stickman. 
+      The user can modify this stickman and then use undo/redo. So the "save" kind of works 
+      like the "load" with respect to the main page.
+      <br>   
+      <br>
+
+      <em> The user is able to use all these buttons, but the changes to the stickman's appearance will not be retained if the user navigates away or clicks on the "Home" button in the navigation bar. </em>
+      <br><br>
+      <b> Help page </b>: Also contains the same navigation bar that allows the user to navigate to the other two pages. It contains links to different pages within the help page.
+      <br><br>
+      <b>File Management page:</b> The fileManagement page allows the user to upload a file to the server.
+      <br><br>
+      <B>Upload: </B>Use txt files only! Inorder to upload a file, click on the "choose file" button and select the file you want to upload. Once selected, click the upload button. You will be navigated
+      back to the home page. Your file will have been uploaded to the server and renamed to "test.txt".
+      <br><br>
+      <b>Download</b> To download a file, type the file name in the test box. The file name will always be <b>test.txt</b>. I implemented a "nice Download" from the lectures,
+      so the user will be navigated to a page that will ask if you want to download the file if it exists. Click on the link, and you will be redirected
+      to test.txt. From here you may choose to download by pressing CTRL+S. <em>Since the type of download was not specified, I implemented the nice Download.</em>
+      <br><br>
+      <b>Load</b> To upload a file, type the filename in the text box. The file name will always be <b>test.txt</b>. Then press the load button. The user will be redirected to
+      the homepage, and the loaded stickam will display in the stickman area. NOTE: the user cannot undo/redo any of the actions to the freshly loaded stickman. 
+      The user can modify this stickman and then use undo/redo. 
+       </p>
+
+
+    </body>
+	
+</html>
